@@ -1,0 +1,18 @@
+步骤：
+1、appstore要设置为美区账号，apple id可以不改
+2、地区和语言都要改为英文，siri语言也要改为英文
+3、小火箭设置代理：底部【配置】-点击扫码，到这个链接去读取本地文件 https://github.com/LingJingMaster/Shadowrocket-Rules -选择新配置的本地文件-
+4、小火箭：配置→测试规则→输入网站（https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list）-点击“点击添加域名到规则”
+5、小火箭：找到新配置的本地文件：本地文件右边的感叹号点一下→规则→点击“+”输入域名apple.com-点击保存
+6、完成所有配置
+
+
+备注：港版开启AI
+小火箭加入规则：配置→测试规则→输入网站→添加域名
+本地文件右边的感叹号点一下→规则→点击“+”输入域名apple.com
+网站：https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list
+域名：
+apple.com
+gspe1-ssl.ls.apple.comapple-relay.apple.comcp4.cloudflare.comapple-relay.fastly-edge.com apple-relay.cloudflare.coliaill *smoot.apple.comguzzoni.apple.com
+输入apple.com可实现全局配置
+不输入只可以代理
